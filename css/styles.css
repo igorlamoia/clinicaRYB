@@ -1,0 +1,669 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=MuseoModerno:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=MuseoModerno:wght@100&display=swap');
+/* Gerais */
+body {
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.row {
+  margin: 0;
+}
+.container {
+  padding: 70px 0;
+  font-size: 16px;
+}
+p, li {
+  color: #444;
+  font-size: 14px;
+}
+
+#team-area{
+  margin-top: -120px;
+}
+#team-area h3{
+  margin-bottom: 40px;
+}
+.service-box.igual i::after{
+  content: "";
+  border-top: 1px solid #333;
+  width: 15%;
+  position: absolute;
+  top: 238px;
+  left: 42.5%;
+}
+.service-box.diferente i::after{
+  content: "";
+  border-top: 1px solid #333;
+  width: 15%;
+  position: absolute;
+  top: 215px;
+  left: 42.5%;
+}
+
+/* Barra de navegação */
+header, .navbar {
+  background-color: #1D6759;
+}
+
+#nav-container {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+#logo {
+  width: 75px;
+}
+
+.navbar-brand {
+  padding: 0;
+  color: #FFF;
+}
+
+.navbar-brand:hover {
+  color: rgb(255, 255, 255);
+}
+
+#navbar-links a {
+  color: #FFF;
+  
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding: 1rem .8rem;
+
+}
+.nav-item.active {
+  border-bottom: 3px solid #FFF;
+}
+
+/* Slider */
+
+.container-fluid {
+  padding: 0;
+}
+
+#mainSlider .carousel-inner, #mainSlider .carousel-item {
+  height: 90vh;
+  background-color: gray;
+}
+
+.carousel-item img{
+  opacity: .7;
+}
+.carousel-item img.segundo{
+  opacity: .4;
+}
+
+#mainSlider .carousel-caption {
+  top: 30%;
+}
+#mainSlider .carousel-caption h2 {
+  font-size: 60px;
+  margin-top: -20px;
+  margin-bottom: 10px;
+  color: #f6f6f6;
+  font-weight: bolder;
+ 
+}
+#mainSlider .carousel-caption p {
+  font-size: 20pt;
+  font-weight: 500;
+  width: 900px;
+  border-radius: 10px;
+  margin-top: 0px;
+  margin-bottom: 40px;
+  color: white;
+}
+#mainSlider .segundo .carousel-caption h2{
+  font-size: 50px;
+  margin-top: -30px;
+  margin-bottom: 15px;
+  font-weight: bolder;
+  color: #1D6759;
+}
+#mainSlider .segundo .carousel-caption p {
+  font-size: 20pt;
+  font-weight: 500;
+  width: 900px;
+  border-radius: 10px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  color: white;
+}
+
+.main-btn {
+  background-color: #1D6759;
+  color: #FFF;
+  text-transform: uppercase;
+  width: 200px;
+  height: 60px;
+  padding: 10px 20px;
+  border-radius: 30px;
+  border: 3px solid transparent;
+  transition: .5s;
+}
+
+.main-btn:hover {
+  text-decoration: none;
+  color: #FFF;
+  background-color: transparent;
+  border-color: #17c0a1;
+}
+
+.carousel-indicators .active {
+  background-color: #1D6759;
+}
+
+/* Sobre a empresa */
+
+#about-area {
+  background-color: #F9F9F9;
+}
+
+.main-title {
+  color: #444;
+  margin: 0 0 65px 0;
+  font-size: 40px;
+  text-align: center;
+}
+
+.main-title::after {
+  content: "";
+  border-top: 2px solid #333;
+  width: 15%;
+  position: absolute;
+  top: 60px;
+  left: 42.5%;
+}
+.main-title.diferente::after {
+  content: "";
+  border-top: 2px solid #333;
+  width: 10%;
+  position: absolute;
+  top: 60px;
+  left: 44.75%;
+  margin-top: -10px;
+
+}
+
+.about-title {
+  font-size: 17px;
+  color: #444;
+  text-transform: uppercase;
+  font-weight: bolder;
+}
+.col-md-6 p{
+  font-size: 16px;
+  text-align: justify;
+}
+#about-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+#about-list li {
+  line-height: 23px;
+  font-size: 16px;
+}
+
+#about-list i {
+  color: #1D6759;
+  margin-right: 15px;
+}
+
+/* Serviços */
+
+.service-box {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.service-box p{
+  text-align: center;
+}
+
+.service-box i, .service-box h4 {
+  transition: .5s;
+}
+
+.service-box i {
+  
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: #444;
+}
+
+.service-box h4 {
+  text-align: center;
+  font-size: 24px;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+
+.service-box:hover > i, .service-box:hover > h4 {
+  color: #1D6759;
+}
+
+/* Dados */
+
+
+
+/* Time */
+
+.card-body {
+  text-align: center;
+}
+
+/* Trabalhe conosco */
+
+#apply-area {
+  height: 500px;
+}
+
+#apply-area .container-fluid, #apply-area .row {
+  height: 100%;
+}
+
+#apply-area .apply-box {
+  padding: 70px 50px;
+  text-align: center;
+}
+
+
+#pattern-img h4, #pattern-img p {
+  color: #FFF;
+}
+
+#pattern-img h4 {
+  margin-top: 8%;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+#pattern-img p {
+  margin-bottom: 20px;
+}
+
+
+/* Portfólio */
+
+.project-box {
+  margin-bottom: 30px;
+}
+
+#filter-btn-box {
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+#portfolio-area .filter-btn {
+  color: #444;
+  border: 1px solid #1D6759;
+  background-color: transparent;
+  text-transform: none;
+  margin: 0 15px;
+  min-width: 100px;
+  width: auto;
+  height: 40px;
+  line-height: 40px;
+  padding: 0 20px;
+  outline: none;
+}
+
+#portfolio-area .filter-btn.active, #portfolio-area .filter-btn:hover {
+  color: #FFF;
+  border: none;
+  background-color: #1D6759;
+}
+
+/* News Letter */
+
+#news-area {
+  text-align: center;
+  background-color: #F9F9F9;
+}
+
+#news-area p {
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+
+#email-input {
+  border-radius: 0;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border: 1px solid #1D6759;
+  display: inline;
+  box-sizing: border-box;
+  width: 40%;
+  height: 40px;
+}
+
+#news-btn {
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border: 1px solid #1D6759;
+  background-color: #1D6759;
+  color: #FFF;
+  text-transform: uppercase;
+  height: 40px;
+  padding: 0 30px;
+  margin-left: -130px;
+  position: absolute;
+  transition: .5s;
+  outline: none;
+}
+
+#news-btn:hover {
+  background-color: #32ceb1;
+  border: 1pt solid #32ceb1;
+}
+
+/* Call To Action */
+
+#call-area {
+  background-color: #1D6759;
+  text-transform: uppercase;
+}
+
+#call-area .container {
+  padding: 40px 100px;
+}
+
+#call-area .row {
+  display: block;
+  text-align: center;
+}
+
+#call-area p {
+  color: #FFF;
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 0;
+  height: 60px;
+  line-height: 60px;
+  letter-spacing: 2px;
+  display: inline;
+}
+
+#call-area #call-btn {
+  background-color: #FFF;
+  color: #1D6759;
+  font-weight: bold;
+  margin-left: 30px;
+  font-size: 20px;
+  width: auto;
+  letter-spacing: 2px;
+  outline: none;
+}
+
+/* Footer */
+
+#contact-area {
+  text-align: center;
+}
+
+.contact-box {
+  padding-bottom: 50px;
+  margin-bottom: 50px;
+  border-bottom: 1px solid #1D6759;
+}
+
+.contact-box i {
+  color: #444;
+  border: solid 1px #444;
+  border-radius: 50%;
+  width: 55px;
+  height: 55px;
+  line-height: 55px;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.contact-box p {
+  font-size: 16px;
+}
+
+.contact-tile {
+  font-weight: bold;
+  color: #1D6759;
+}
+
+#msg-box p {
+  font-size: 22px;
+}
+
+#contact-form input[type="text"], #contact-form textarea {
+  margin-bottom: 15px;
+  border-radius: 0;
+}
+
+#contact-form .main-btn {
+  width: 120px;
+  height: 50px;
+  outline: none;
+}
+
+#contact-form .main-btn:hover {
+  color: #1D6759;
+}
+
+/* Copy */
+
+#copy-area {
+  background-color: #F1F1F1;
+}
+
+#copy-area .container {
+  padding: 10px 0;
+  text-align: center;
+}
+
+#copy-area .container p {
+  margin-bottom: 0;
+}
+
+#copy-area .container a {
+  font-weight: bold;
+  color: #444;
+}
+
+#copy-area .container a:hover {
+  text-decoration: none;
+  color: #1D6759;
+}
+
+/* responsive */
+@media(max-width: 768px) {
+  
+  /* geral */
+  .container {
+    padding: 20px 0;
+  }
+  
+  /* slider */
+  #mainSlider .carousel-inner, #mainSlider .carousel-item {
+    height: auto;
+  }
+
+  #mainSlider .carousel-caption h2 {
+    font-size: 28px;
+  }
+
+  #mainSlider .carousel-caption p {
+    font-size: 18px;
+    margin-bottom: 40px;
+  }
+
+  .carousel-caption {
+    left: 10%;
+    right: 10%;
+  }
+  
+  /* about */
+  #about-area img {
+    margin-top: 100px;
+  }
+  
+
+
+  #data-area p {
+    font-size: 16px;
+  }
+  
+  /* team */
+  .card-title {
+    font-size: 14px;
+  }
+
+  .card-text {
+    font-size: 12px;
+  }
+
+  /* apply */
+  #apply-area .apply-box {
+    padding: 50px 25px;
+  }
+
+  /* news */
+  #news-area p {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #email-input {
+    width: 70%;
+  }
+
+  #call-area {
+    margin-top: 30px;
+  }
+
+  #call-area .container {
+    padding: 30px;
+  }
+
+  #call-area p, #call-area #call-btn {
+    font-size: 16px;
+  }
+
+}
+
+
+@media(max-width: 520px) {
+
+  /* slider */
+  #mainSlider {
+    margin-top: 65px;
+  }
+
+  #mainSlider .carousel-caption {
+    top: 15%;
+  }
+  .navbar a{
+    font-size: 15px;
+  }
+
+.container h3{
+  text-align: center;  
+  font-size: 25px;
+}
+#team-area h3{
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+#team-area h3::after{
+  margin-top: 15px;
+}
+.col-md-12 h3.main-title::after{
+  margin-top: -20px;
+}
+.container p, .container li{
+  padding: 0 20px 0 20px;
+}
+
+  #mainSlider .carousel-caption h2 {
+    font-size: 18px;
+    margin-bottom: 40px;
+  }
+  #mainSlider .carousel-caption h3 {
+    font-size: 18px;
+    margin-bottom: 40px;
+  }
+
+  #mainSlider .carousel-caption p {
+    display: none;
+  }
+
+  .carousel-caption .main-btn {
+    
+    font-size: 14px;
+  }
+
+  /* about */
+  .main-title {
+    font-size: 30px;
+  }
+
+  #about-area img {
+    margin-top: 0;
+    margin-bottom: 30px;
+  }
+
+  /* data */
+  .circle-box {
+    width: 50%;
+  }
+
+  #team-area .col-md-3 {
+    width: 50%;
+    margin-bottom: 30px;
+  }
+
+  /* apply */
+  #apply-area {
+    height: auto;
+  }
+
+  #company-img {
+    display: none;
+  }
+
+  /* filter */
+  #portfolio-area .filter-btn {
+    margin-bottom: 20px;
+  }
+
+  .project-box {
+    width: 50%;
+  }
+
+  /* news */
+  #news-area .main-title {
+    font-size: 24px;
+  }
+
+  #news-area p {
+    font-size: 16px;
+  }
+
+  #email-input {
+    width: 80%;
+  }
+
+  #call-area p, #call-area #call-btn {
+    font-size: 14px;
+    letter-spacing: 0;
+  }
+
+  #call-area p, #call-area #call-btn {
+    margin: 0;
+    width: 50%;
+  }
+
+  /* contact */
+  .contact-box {
+    border: none;
+    margin-bottom: 0;
+  }
+
+}
